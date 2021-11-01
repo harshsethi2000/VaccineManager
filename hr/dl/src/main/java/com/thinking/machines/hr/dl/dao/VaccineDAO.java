@@ -67,12 +67,24 @@ if(!vaccineIdExists(vaccineId))
 {
 throw new DAOException("Invalid vaccine Id: "+vaccineId);
 }
-if(vaccineNameExists(vaccineName))
-{
-throw new DAOException("Vaccine Name : "+vaccineName+" exist");
-}
 Connection connection=DAOConnection.getConnection();
 PreparedStatement preparedStatement;
+
+preparedStatement=connection.prepareStatement("select * from vaccine where vaccine_name=? and vaccine_id<>?");
+preparedStatement.setString(1,vaccineName);
+preparedStatement.setInt(2,vaccineId);
+ResultSet resultSet=preparedStatement.executeQuery();
+if(resultSet.next())
+{
+resultSet.close();
+preparedStatement.close();
+connection.close();
+throw new DAOException("Vaccine Name : "+vaccineName+" exist");
+}
+resultSet.close();
+preparedStatement.close();
+
+
 preparedStatement=connection.prepareStatement("update vaccine set vaccine_name=? ,number_of_dose=? ,gap_between_dose=? where vaccine_id=? ");
 preparedStatement.setString(1,vaccineName);
 preparedStatement.setInt(2,numberOfDose);

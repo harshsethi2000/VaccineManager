@@ -1,0 +1,18 @@
+com/thinking/machines/hr/bl/interfaces/pojo/VaccinatedClientInterface.java
+ com.thinking.machines.hr.bl.interfaces.pojo.VaccinatedClientInterface
+com/thinking/machines/hr/bl/exceptions/BLException.java
+ com.thinking.machines.hr.bl.exceptions.BLException
+com/thinking/machines/hr/bl/pojo/Vaccine.java
+ com.thinking.machines.hr.bl.pojo.Vaccine
+com/thinking/machines/hr/bl/interfaces/managers/VaccineManagerInterface.java
+ com.thinking.machines.hr.bl.interfaces.managers.VaccineManagerInterface
+com/thinking/machines/hr/bl/interfaces/pojo/VaccineInterface.java
+ com.thinking.machines.hr.bl.interfaces.pojo.VaccineInterface
+com/thinking/machines/hr/bl/pojo/VaccinatedClient.java
+ com.thinking.machines.hr.bl.pojo.VaccinatedClient
+com/thinking/machines/hr/bl/interfaces/managers/VaccinatedClientManagerInterface.java
+ com.thinking.machines.hr.bl.interfaces.managers.VaccinatedClientManagerInterface
+com/thinking/machines/hr/bl/managers/VaccinatedClientManager.java
+ com.thinking.machines.hr.bl.managers.VaccinatedClientManager
+com/thinking/machines/hr/bl/managers/VaccineManager.java
+ com.thinking.machines.hr.bl.managers.VaccineManager

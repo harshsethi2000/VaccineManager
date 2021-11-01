@@ -2,10 +2,10 @@ com/thinking/machines/hr/dl/dto/VaccinatedClientDTO.java
  com.thinking.machines.hr.dl.dto.VaccinatedClientDTO
 com/thinking/machines/hr/dl/dao/DAOConnection.java
  com.thinking.machines.hr.dl.dao.DAOConnection
-com/thinking/machines/hr/dl/dao/VaccineDAO.java
- com.thinking.machines.hr.dl.dao.VaccineDAO
-com/thinking/machines/hr/dl/dao/VaccinatedClientDAO.java
- com.thinking.machines.hr.dl.dao.VaccinatedClientDAO
+com/thinking/machines/hr/dl/interfaces/dao/VaccineDAOInterface.java
+ com.thinking.machines.hr.dl.interfaces.dao.VaccineDAOInterface
+com/thinking/machines/hr/dl/exceptions/DAOException.java
+ com.thinking.machines.hr.dl.exceptions.DAOException
 com/thinking/machines/hr/dl/interfaces/dto/VaccinatedClientDTOInterface.java
  com.thinking.machines.hr.dl.interfaces.dto.VaccinatedClientDTOInterface
 com/thinking/machines/hr/dl/interfaces/dao/VaccinatedClientDAOInterface.java
@@ -14,7 +14,7 @@ com/thinking/machines/hr/dl/interfaces/dto/VaccineDTOInterface.java
  com.thinking.machines.hr.dl.interfaces.dto.VaccineDTOInterface
 com/thinking/machines/hr/dl/dto/VaccineDTO.java
  com.thinking.machines.hr.dl.dto.VaccineDTO
-com/thinking/machines/hr/dl/exceptions/DAOException.java
- com.thinking.machines.hr.dl.exceptions.DAOException
-com/thinking/machines/hr/dl/interfaces/dao/VaccineDAOInterface.java
- com.thinking.machines.hr.dl.interfaces.dao.VaccineDAOInterface
+com/thinking/machines/hr/dl/dao/VaccineDAO.java
+ com.thinking.machines.hr.dl.dao.VaccineDAO
+com/thinking/machines/hr/dl/dao/VaccinatedClientDAO.java
+ com.thinking.machines.hr.dl.dao.VaccinatedClientDAO

@@ -1,0 +1,15 @@
+com/thinking/machines/hr/pl/model/VaccineModel.java
+ com.thinking.machines.hr.pl.model.VaccineModel
+ com.thinking.machines.hr.pl.model.VaccineModel$1
+com/thinking/machines/hr/pl/ui/VaccinationManagerUI.java
+ com.thinking.machines.hr.pl.ui.VaccinationManagerUI
+ com.thinking.machines.hr.pl.ui.VaccinationManagerUI$1
+ com.thinking.machines.hr.pl.ui.VaccinationManagerUI$MODE
+ com.thinking.machines.hr.pl.ui.VaccinationManagerUI$RightPanelMode
+ com.thinking.machines.hr.pl.ui.VaccinationManagerUI$VaccinePanel
+ com.thinking.machines.hr.pl.ui.VaccinationManagerUI$VaccinePanel$1
+ com.thinking.machines.hr.pl.ui.VaccinationManagerUI$VaccinePanel$2
+ com.thinking.machines.hr.pl.ui.VaccinationManagerUI$VaccinePanel$3
+ com.thinking.machines.hr.pl.ui.VaccinationManagerUI$VaccinePanel$4
+com/thinking/machines/hr/pl/Main.java
+ com.thinking.machines.hr.pl.Main

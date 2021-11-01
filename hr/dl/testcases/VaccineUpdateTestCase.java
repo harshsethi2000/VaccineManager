@@ -10,10 +10,10 @@ public static void main(String gg[])
 try
 {
 VaccineDTOInterface vaccineDTO=new VaccineDTO();
-vaccineDTO.setVaccineId(8);
-vaccineDTO.setVaccineName("Covaxin");
-vaccineDTO.setNumberOfDose(2);
-vaccineDTO.setGapBetweenDose(88);
+vaccineDTO.setVaccineId(12);
+vaccineDTO.setVaccineName("njsjakshj");
+vaccineDTO.setNumberOfDose(1);
+vaccineDTO.setGapBetweenDose(86);
 VaccineDAOInterface vaccineDAO=new VaccineDAO();
 vaccineDAO.update(vaccineDTO);
 System.out.println("updated");
